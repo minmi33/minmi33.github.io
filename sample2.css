@@ -1,8 +1,4 @@
 
-
-
-
-
 body {
 	font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
 	color: black;
@@ -94,7 +90,7 @@ li {
 	justify-content: center;
 	align-items: center;
 	position: absolute;
-	right: 20px;
+	right: 50px;
 	z-index: 100; /* 重なり順を一番上にする */
 	cursor: pointer;
 }
@@ -203,23 +199,27 @@ img.me {
 	padding: 20px;
 	margin:  auto;
 	border: double 5px #AAA69D;
-	text-align: left
+	text-align: left;
   }
+
+.basicinfo li {
+	margin-left:40px;
+}
 
 .intro {
 	display: flex;
 	max-width: 1500px;
-	height: 400px;
+	min-height: 400px;
 	margin: 150px 0px 150px 0px;
 }
 .intro-image img {
-	height: 90%;
-	max-width: 600px;
-	margin: 20px 75px 0px 75px;
+	height: auto;
+	max-width:80%;
+	margin: 1% 7% 0px 7%;
 }
 .intro-text {
-	width: 100%;
-	margin: 0 75px;
+	max-width: 40%;
+	margin: 0 5% 0 5%;
 }
 	.intro-text h3 {
 		margin:0px 0px 10px 0px;
